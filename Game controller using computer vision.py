@@ -23,8 +23,8 @@ class WebcamVideoStream:
     def stop(self):
         self.stopped = True
 #Define HSV colour range for green colour objects
-greenLower = (29, 86, 6)
-greenUpper = (64, 255, 255)
+greenLower = (29, 86, 7)
+greenUpper = (65, 255, 255)
 #greenLower = (230, 230, 230)
 #greenUpper = (255, 255, 255)
 
