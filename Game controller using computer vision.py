@@ -23,10 +23,11 @@ class WebcamVideoStream:
     def stop(self):
         self.stopped = True
 #Define HSV colour range for green colour objects
-greenLower = (29, 87, 7)
-greenUpper = (65, 255, 255)
+greenLower = (30, 85, 7)
+greenUpper = (66, 255, 255)
 #greenLower = (230, 230, 230)
 #greenUpper = (255, 255, 255)
+bhavya=0
 
 #Used in deque structure to store no. of given buffer points
 buffer = 20
